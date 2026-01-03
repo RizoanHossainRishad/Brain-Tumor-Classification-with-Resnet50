@@ -100,7 +100,7 @@ Make sure streamlit is installed by:
     pip install streamlit
 You can run the streamlit by:
 
-    streamlit run frontend/app.py
+    streamlit run ui.py
 
 ## Additional Tips ( Not required ) 
 It is good practice to use a virtual environment for isolating dependencies
