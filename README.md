@@ -110,7 +110,7 @@ It is good practice to use a virtual environment for isolating dependencies
     venv\Scripts\activate      # Windows
 
 ## Video Link
-Video link for the project showcase can be found here: here
+Video link for the project showcase can be found here: [here](https://youtu.be/_hAjd-m_HVo)
 
 ## Contact Information
 
