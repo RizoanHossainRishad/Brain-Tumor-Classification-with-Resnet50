@@ -1,3 +1,4 @@
+import streamlit as st
 from fastapi import FastAPI,File,UploadFile
 from fastapi.responses import JSONResponse
 import os
@@ -21,6 +22,8 @@ import numpy as np
 
 from preprocessing.preprocessing import preprocess_image
 from model.inference import ONNXModel
+
+
 
 app = FastAPI()
 

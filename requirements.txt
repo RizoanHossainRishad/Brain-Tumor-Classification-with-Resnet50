@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+torch
+torchvision
+onnx
+onnxruntime
+numpy
+pillow
+opencv-python
+tqdm
+scikit-learn
+python-multipart
+streamlit

@@ -13,7 +13,8 @@ def preprocess_image(image_bytes):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
     # Resize
-    img = cv2.resize(img, (224, 224))
+    img = cv2.resize(img, (224, 224), interpolation=cv2.INTER_LINEAR)
+
 
     # Normalize to [0, 1]
     img = img.astype(np.float32) / 255.0
